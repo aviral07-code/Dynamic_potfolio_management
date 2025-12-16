@@ -1,0 +1,14 @@
+Bandit TRAIN metrics: {'cumulative_return': np.float64(0.07128003563288576), 'max_drawdown': np.float64(-0.32781363117000295), 'sharpe_ratio': np.float64(0.1695438288565937)}
+Bandit TRAIN summary: {'mean_daily_return': np.float64(0.0001178102094647561), 'std_daily_return': np.float64(0.011030652719721815), 'n_steps': 1209}
+Bandit TEST metrics: {'cumulative_return': np.float64(0.529032673532789), 'max_drawdown': np.float64(-0.1087525519959274), 'sharpe_ratio': np.float64(1.4295537074789217)}
+Bandit TRAIN summary: {'mean_daily_return': np.float64(0.0008900780036065506), 'std_daily_return': np.float64(0.009883889073932568), 'n_steps': 505}
+Equal-weight baseline metrics: {'cumulative_return': np.float64(0.2634467671192988), 'max_drawdown': np.float64(-0.14853248148293985), 'sharpe_ratio': np.float64(0.8852781349472401)}
+Equal-weight baseline summary: {'mean_daily_return': np.float64(0.0005040559371830941), 'std_daily_return': np.float64(0.009038560452404315), 'n_steps': 505}
+Greedy past-mean baseline metrics: {'cumulative_return': np.float64(0.4868815806800064), 'max_drawdown': np.float64(-0.14797502114935132), 'sharpe_ratio': np.float64(1.3360438800560874)}
+Greedy past-mean baseline summary: {'mean_daily_return': np.float64(0.000835007365651971), 'std_daily_return': np.float64(0.009921329076390284), 'n_steps': 505}
+
+RL (PPO) TEST metrics: {'cumulative_return': np.float64(0.9841701771096432), 'max_drawdown': np.float64(-0.13557745519859718), 'sharpe_ratio': np.float64(1.9954685415537499)}
+RL (PPO) TEST summary: {'mean_daily_return': np.float64(0.0007726487158688638), 'std_daily_return': np.float64(0.008931696435528802), 'n_steps': 505}
+
+RLlib PPO TEST metrics: {'cumulative_return': np.float64(0.6507717375485933), 'max_drawdown': np.float64(-0.1127651355666463), 'sharpe_ratio': np.float64(1.5622210365266618)}
+RLlib PPO TEST summary: {'mean_daily_return': np.float64(0.00048254870004970735), 'std_daily_return': np.float64(0.009440757473807243), 'n_steps': 505}
